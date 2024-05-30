@@ -1,0 +1,123 @@
+.techinical-area {
+  padding-top: 110px;
+  position: relative;
+  content: "";
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://proone.vercel.app/_next/static/media/technical.19694e0c.svg");
+  background-size: cover;
+  background-position: 50%;
+}
+.techinical-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center;
+}
+.techinical-detail {
+  flex: 0 0 60%;
+  max-width: 68%;
+}
+.techinical-features {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center;
+}
+.title h2 {
+  color: #fff;
+}
+.title p {
+  color: #fff;
+}
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.single-techinical {
+  border: 1px solid #c065de;
+  margin-bottom: 50px;
+  padding: 50px 15px 40px;
+  text-align: center;
+}
+.techinical-card {
+  flex: 0 0 25%;
+  max-width: 25%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.single-techinical img {
+  margin-bottom: 25px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.single-techinical h4 {
+  color: #fff;
+  line-height: 30px;
+  font-size: 24px;
+  margin: 0 0 15px;
+}
+@media (max-width: 1200px) {
+  .techinical-detail {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .techinical-card {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+@media (max-width: 992px) {
+  .techinical-detail {
+    flex: 0 0 85%;
+    max-width: 85%;
+  }
+  .techinical-card {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .techinical-detail {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  .techinical-card {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  .single-techinical {
+    padding: 30px 15px 20px;
+  }
+}
+@media (max-width: 576px) {
+  .techinical-area {
+    padding-top: 60px;
+  }
+  .single-techinical {
+    padding: 30px 15px 20px;
+  }
+  .single-techinical h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .techinical-card {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}

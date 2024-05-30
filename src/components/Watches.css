@@ -1,0 +1,93 @@
+.product-area {
+  position: relative;
+  padding-bottom: 80px;
+}
+.details {
+  justify-content: center;
+}
+
+.price-now {
+  flex: 0 0 58%;
+  max-width: 58%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+h2 {
+  font-weight: 700;
+}
+.watch-model {
+  padding-right: 26px;
+  padding-left: 26px;
+  outline: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+.product-area:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://proone.vercel.app/_next/static/media/product-shape.fe4d461f.svg");
+  background-size: cover;
+}
+.section-title {
+  padding-bottom: 30px;
+  text-align: center;
+}
+.section-title h2 {
+  margin-left: 50px;
+  font-size: 38px;
+  line-height: 48px;
+  color: #3c368c;
+}
+.single-watch-model {
+  margin-bottom: 40px;
+  box-shadow: 0 3px 30px rgba(0, 0, 0, 0.05);
+}
+.model {
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 30px;
+}
+.model-content {
+  padding: 40px 40px 40px 40px;
+  background-color: #fff;
+  position: relative;
+}
+
+.model-content h4 {
+  color: #feac01;
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.model-content h2 {
+  font-size: 24px;
+  color: #3c368c;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.model-content ul li {
+  margin-bottom: 12px;
+}
+@media (max-width: 768px) {
+  .price-now {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .section-title h2 {
+    margin-left: 0;
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .model-content {
+    padding: 20px;
+  }
+}

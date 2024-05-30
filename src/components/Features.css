@@ -1,0 +1,115 @@
+.feature-area {
+  position: relative;
+  padding: 110px 0 68px;
+}
+.feature-area:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("D:\Landing Page\landingpage\public\icons\features.13bfee4b.png");
+  background-size: contain;
+  right: 0;
+  top: 30px;
+  width: 50%;
+  background-position: 50%;
+
+  animation: float 3s ease-in-out infinite;
+}
+
+.features-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.quality {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.section-title {
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  width: 80%;
+  font-size: 38px;
+  line-height: 48px;
+  color: #3c368c;
+}
+.section-title p {
+  padding-top: 20px;
+  padding-left: 3px;
+  font-size: 17px;
+}
+.single-feature {
+  margin-bottom: 40px;
+}
+.single-feature img {
+  margin-bottom: 25px;
+}
+.single-feature h2 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #3c368c;
+  padding-bottom: 10px;
+}
+@media (max-width: 767.98px) {
+  .quality {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .section-title h2 {
+    width: 100%;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .single-feature h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .feature-area {
+    padding: 70px 0 40px;
+  }
+
+  .section-title h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .section-title p {
+    font-size: 15px;
+  }
+
+  .single-feature h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 400px) {
+  .feature-area {
+    padding: 50px 0 20px;
+  }
+
+  .section-title h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .section-title p {
+    font-size: 13px;
+  }
+
+  .single-feature h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

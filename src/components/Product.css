@@ -1,0 +1,152 @@
+.notification-area {
+  background-repeat: no-repeat;
+  padding: 120px 0 115px;
+  background-image: url("https://proone.vercel.app/img/notification-bg.svg");
+}
+.smart-notification {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 60px;
+}
+.watch-notification {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 50px;
+}
+.notification-content {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.notification-content h2 {
+  font-size: 38px;
+  line-height: 48px;
+  color: #31136b;
+  margin-bottom: 25px;
+}
+.notification-content p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.notification-content ul {
+  margin: 4px;
+  padding: 0;
+}
+.notification-content ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.btn {
+  margin-top: 15px;
+  background-color: #feac01;
+  color: #000;
+}
+.notification-img {
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .notification-content h2 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .notification-content p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .notification-content ul li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .watch-notification {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 15px;
+  }
+
+  .notification-content {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .notification-content h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .notification-content p {
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .notification-content ul li {
+    font-size: 13px;
+  }
+
+  .watch-notification {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .btn {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .notification-area {
+    padding: 80px 0 75px;
+  }
+
+  .notification-content {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .notification-content h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .notification-content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .notification-content ul li {
+    font-size: 12px;
+  }
+
+  .btn {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .watch-notification {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
